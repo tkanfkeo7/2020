@@ -1,0 +1,62 @@
+@font-face {font-family: 'NotoSansCJKkr-Bold';
+src: url("font/NotoSansCJKkr-Bold.otf") format('opentype');}
+@font-face {font-family: 'NotoSansCJKkr-Medium';
+src: url("font/NotoSansCJKkr-Medium.otf") format('opentype');}
+@font-face {font-family: 'NotoSansCJKkr-Regular';
+src: url("font/NotoSansCJKkr-Regular.otf") format("opentype");}
+@font-face {font-family: 'NotoSansCJKkr-Thin';
+src: url("font/NotoSansCJKkr-Thin.otf") format("opentype");}
+
+*{padding: 0; margin: 0}
+body{overflow-x: hidden; font-family: 'NotoSansCJKkr-Medium'; width: 100%; text-align: center}
+ul{list-style: none}
+.inner{width: 1280px; margin: 0 auto}
+
+
+
+header{background-image: url(../images/subimg/sub_head.png); background-repeat: no-repeat; background-size: contain; background-color: #d56672; height: 850px; background-position: center; margin-bottom: 33px}
+.sub_pc{background-image:url(../images/subimg/sub_headpc2.png);background-repeat: no-repeat; height: 850px; background-position: center; position: relative; background-size: contain; width: 1095px }
+.sub_pc>video{position: absolute; top: 150px; left: 92px; width: 908px}
+
+p{border: 1px solid #161616; border-radius: 50px;  font-size: 1.6rem; background: #fff; width: 200px; margin: 0 auto}
+p:hover{background-color: #d46671; border: 1px solid #d46671}
+p:hover a{color: #fff}
+
+a{display: block; text-decoration: none; color: #363636; padding: 10px 35px;}
+
+h2{font-size: 2.8rem; padding: 60px}
+
+footer{background-image: url(../images/subimg/sub_footer.png); background-repeat: no-repeat; background-size: 100%; background-position: center; height: 1110px; position: relative}
+p.f_view{border:none; margin: 0px; position: absolute; top: 58%; left: 44.4%}
+.sec img{width: 45%; height: 100%; margin-bottom: 80px}
+#sec1 h2, #sec5 h2{padding-top: 120px}
+#sec1 img{width: 40%}
+#sec5,#sec6{background-color: #ebebe9}
+#sec7{height: 1400px}
+
+footer#fotter_p2{background-image: url(../images/subimg/z_sub_8.png); background-repeat: no-repeat; background-size: 100%; background-position: center; height: 1110px; position: relative}
+footer#fotter_p2>p.f_view{top: 55%}
+p.p2:hover{background-color: #363493; border: 1px solid #363493}
+body.p2 #sec3 img{width: 22%}
+body.p2 header{background-image: url(../images/subimg/sub_head.png); background-repeat: no-repeat; background-size: contain; background-color: #86cef2; height: 850px; background-position: center; margin-bottom: 33px}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
