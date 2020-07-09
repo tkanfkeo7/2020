@@ -36,7 +36,7 @@ p.f_view{border:none; margin: 0px; position: absolute; top: 58%; left: 44.4%}
 #sec7 img{width: 100%; height: 100%}
 
 /*프2*/
-footer#fotter_p2{background-image: url(../images/subimg/z_sub_8.png); background-repeat: no-repeat; background-size: 100%; background-position: center; height: 1110px; position: relative}
+footer#fotter_p2{background-image: url(../images/subimg/z_sub_8.png); background-repeat: no-repeat; background-size: 100%; background-position: bottom; height: 1110px; position: relative}
 footer#fotter_p2>p.f_view{top: 55%}
 p.p2:hover{background-color: #363493; border: 1px solid #363493; transition: 1s}
 body.p2 #sec3 img{width: 22%}
