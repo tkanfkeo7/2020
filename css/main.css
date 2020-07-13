@@ -330,11 +330,12 @@ z
 
 
 .class_my li span.skill{display: inline-block; float: left;}
-.class_my li .skill_bar{position: absolute; left: 28%; width: 50%; background-color: #C2E54F; margin:0 10px; height: 15px; margin-top: 4.5px; border-radius: 10px; list-style: none; padding-left: 0; animation-play-state: paused;}
+.class_my li .skill_bar{position: absolute; left: 28%; width: 50%; background-color: #C2E54F; margin:0 10px; height: 15px; margin-top: 4.5px; border-radius: 10px; list-style: none; padding-left: 0;}
 
 .class_my li .skill_bar li{width: 13px; height: 13px; border-radius: 50px; background: #363636; margin-top: 1px; margin-left: 1px;
-animation-duration: 6s;
+animation-duration: 5s;
 animation-fill-mode: both;
+/*animation-play-state: paused;*/
 }
 
 /*.class_my li .skill_bar li.bar_ani{animation-duration: 6s;
