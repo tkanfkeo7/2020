@@ -330,7 +330,7 @@ z
 
 
 .class_my li span.skill{display: inline-block; float: left;}
-.class_my li .skill_bar{position: absolute; left: 28%; width: 50%; background-color: #C2E54F; margin:0 10px; height: 15px; margin-top: 4.5px; border-radius: 10px; list-style: none; padding-left: 0}
+.class_my li .skill_bar{position: absolute; left: 28%; width: 50%; background-color: #C2E54F; margin:0 10px; height: 15px; margin-top: 4.5px; border-radius: 10px; list-style: none; padding-left: 0; animation-play-state: paused;}
 
 .class_my li .skill_bar li{width: 13px; height: 13px; border-radius: 50px; background: #363636; margin-top: 1px; margin-left: 1px;
 animation-duration: 6s;
@@ -380,3 +380,21 @@ div.col-lg-4_div>p{font-size: 1.1rem; color: #363636; font-weight: bold; margin-
     
 }
 /***/
+/*로고크기조절*/
+.sticky-wrapper.is-sticky .site-navbar .site-logo a img{width: 32px;}
+/*스크롤바디자인_크롬기준*/
+.fancybox-content{}
+
+  .fancybox-content::-webkit-scrollbar {
+    width: 15px;
+  }
+  .fancybox-content::-webkit-scrollbar-thumb {
+    background-color: #363636;
+    border-radius: 10px;
+    background-clip: padding-box;
+    border: 2px solid transparent;
+  }
+  .fancybox-content::-webkit-scrollbar-track {
+    background-color: grey;
+    box-shadow: inset 0px 0px 15px white;
+  }
