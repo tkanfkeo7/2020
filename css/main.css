@@ -224,13 +224,59 @@ header{display: none}
 				opacity: 0;
 			}
 
-		@media screen and (max-width: 980px) {
+		@media screen and (max-width: 990px) {
 
 			#header_main .content p br {
 				display: none;
 			}
-
+            #header_main nav ul{
+			display: block;
+            }
+            #header_main nav ul li{border-left: none;
+            border-bottom: 1px solid #fff}
+            #header_main nav ul li:last-child{border-bottom: none}
+            
+            .site-nav-wrap:nth-child(2){display: none}
+            
+            #about-section .container .row div:nth-child(2){text-align: center}
+            #about-section .col-lg-4 .img-my{margin-bottom: 50px;}
+            #about-section .col-lg-4 .class_my li span{display: inline-block; margin-left: 30px}
+            #about-section .col-lg-4 .class_my{width: 65%; margin: 0 auto; line-height: 25px}
+            #about-section .col-lg-4 p{text-align: center; margin-top: 30px}
+            
+            #about-section .col-lg-4 .list_s:before{content: ""; display: block; clear: both}
+            #about-section .col-lg-4 .list_s li{float: left}
+            #about-section .col-lg-4 .list_s span{float: right}
+            
+            #about-section .col-lg-4 .class_my2 .sos_1{display: none}
+            
+            #about-section .col-lg-4 .class_my_skill .skill{margin-left: 0}
+            #about-section .col-lg-4 .class_my li .skill_bar{width: 45%; left: 34.4%;}
+            
+            #about-section .col-lg-4 .class_my_certificate span, .class_my2 span, .class_my:nth-child(2) span{width:81%; float: right; }
+            
+            #about-section .col-lg-4 .class_my_activities li span{width:69%; float: right; margin-left: 0px}
 		}
+
+
+        @media screen and (max-width: 766px) {
+    
+            #about-section .col-lg-4 .class_my li span{display: inline-block; margin-left: 20px}
+            #about-section .col-lg-4 .class_my{width: 82%; margin: 0 auto; line-height: 25px}
+           
+            #about-section .col-lg-4 .class_my_activities li span{width:69%; float: right; margin-left: 0px}
+        }
+
+
+        @media screen and (max-width: 552px) {
+    
+            #about-section .col-lg-4 .class_my li span{display: inline-block; margin-left: 20px}
+            #about-section .col-lg-4 .class_my{width: 92%; margin: 0 auto; line-height: 25px}
+           
+            #about-section .col-lg-4 .class_my_activities li span{width:69%; float: right; margin-left: 0px}
+        }
+
+
 
 		@media screen and (max-width: 736px) {
 
@@ -260,6 +306,7 @@ header{display: none}
 			#header_main .content p {
 				line-height: 1.875;
 			}
+             
 		}
 
 		@media screen and (max-width: 480px) {
@@ -312,7 +359,7 @@ z
 .my_date_p{height: calc(15vh)}
 }
 @media screen and (max-width: 1000px) {
-.my_date_p{height: calc(20vh)}
+.my_date_p{height: calc(18vh)}
 }
 @media screen and (max-width: 750px) {
 .my_date_p{height: calc(15vh)}
