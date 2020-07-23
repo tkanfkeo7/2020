@@ -2855,6 +2855,8 @@
 }
 .icon-close2:before {
   content: "\e5cd";
+  position: relative;
+  z-index: 999;
 }
 .icon-clear_all:before {
   content: "\e0b8";

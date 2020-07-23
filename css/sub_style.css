@@ -50,6 +50,8 @@ body.p3 header{background-color: #f38920;}
 
 body.p3 p:hover{background-color: #f2622f; border: 1px solid #f2622f; transition: 1s}
 
+body.p3 footer>p.f_view{top: 47%; left:40%}
+
 
 /*프4*/
 body.p4 header{background-color: #5E00CE;}
