@@ -370,14 +370,15 @@
         <div class="row justify-content-center mb-5" data-aos="fade">
           <div id="filters" class="filters text-center button-group col-md-7">
             <button class="btn btn-primary active" data-filter="*">All</button><br>
-            <button class="btn btn-primary" data-filter=".web_banner">웹배너</button>
+            <button class="btn btn-primary" data-filter=".web_banner"><!--웹-->배너</button>
             <button class="btn btn-primary" data-filter=".sns">SNS</button>
             <button class="btn btn-primary" data-filter=".cibi">CIBI</button>
             <button class="btn btn-primary" data-filter=".pen">편집물</button><br>
             <button class="btn btn-primary" data-filter=".char">캐릭터</button>
-            <button class="btn btn-primary" data-filter=".shopping_banner">쇼핑몰배너</button>
+            <!--<button class="btn btn-primary" data-filter=".shopping_banner">쇼핑몰배너</button>-->
             <button class="btn btn-primary" data-filter=".shopping_detail">상세페이지</button>
-            <!--<button class="btn btn-primary" data-filter=".app_apk">APP</button>-->
+            <button class="btn btn-primary" data-filter=".app_apk">APP</button>
+            <button class="btn btn-primary" data-filter=".3dmax">3D</button>
           </div>
         </div>  
         
@@ -497,29 +498,29 @@
           </div>
           
           
-          <!--쇼핑몰배너-->
-          <div class="item shopping_banner col-6 col-sm-6 col-md-6 col-lg-4 col-xl-4 mb-4">
+          <!--쇼핑몰배너// 그냥 배너에 몰음-->
+          <div class="item web_banner col-6 col-sm-6 col-md-6 col-lg-4 col-xl-4 mb-4">
             <a href="images/sp_banner1_b.jpg" class="item-wrap fancybox"> 
               <span class="icon-search2" style="text-align: center"><br>Fruit Jam<br>배너#1</span>
               <img class="img-fluid" src="images/sp_banner1_a.webp">
             </a>
           </div>     
           
-          <div class="item shopping_banner col-6 col-sm-6 col-md-6 col-lg-4 col-xl-4 mb-4">
+          <div class="item web_banner col-6 col-sm-6 col-md-6 col-lg-4 col-xl-4 mb-4">
             <a href="images/sp_banner2_b.jpg" class="item-wrap fancybox">
               <span class="icon-search2" style="text-align: center"><br>Fruit Jam<br>배너#2</span>
               <img class="img-fluid" src="images/sp_banner2_a.webp">
             </a>
           </div>
           
-          <div class="item shopping_banner col-6 col-sm-6 col-md-6 col-lg-4 col-xl-4 mb-4">
+          <div class="item web_banner col-6 col-sm-6 col-md-6 col-lg-4 col-xl-4 mb-4">
             <a href="images/sp_banner3_b.jpg" class="item-wrap fancybox">
               <span class="icon-search2" style="text-align: center"><br>Fruit Jam<br>배너#3</span>
               <img class="img-fluid" src="images/sp_banner3_a.webp">
             </a>
           </div>
           
-          <div class="item shopping_banner col-6 col-sm-6 col-md-6 col-lg-4 col-xl-4 mb-4">
+          <div class="item web_banner col-6 col-sm-6 col-md-6 col-lg-4 col-xl-4 mb-4">
             <a href="images/sp_banner4_b.jpg" class="item-wrap fancybox">
               <span class="icon-search2" style="text-align: center"><br>Fruit Jam<br>배너#4</span>
               <img class="img-fluid" src="images/sp_banner4_a.webp">
@@ -590,34 +591,48 @@
             </a>
           </div>
           
-          <!--app
+          <!--app-->
           <div class="item app_apk col-6 col-sm-6 col-md-6 col-lg-4 col-xl-4 mb-4">
-            <a href="images/lovelymeong_all_b.jpg" class="item-wrap fancybox">
+            <a href="images/app_b.jpg" class="item-wrap fancybox">
               <span class="icon-search2" style="text-align: center"><br>SNACK AAC<br>APP</span>
               <img class="img-fluid" src="images/app_a.png">
             </a>
-          </div>-->
+          </div>
           
-          
-        </div>
-      </div>
-      
-      <!--닌텐도랑 레고 메인시안
-         <div class="item visual col-6 col-sm-6 col-md-6 col-lg-4 col-xl-4 mb-4">
+          <!--3dmax-->
+          <div class="item 3dmax col-6 col-sm-6 col-md-6 col-lg-4 col-xl-4 mb-4">
+            <a href="images/3dmax1_b.jpg" class="item-wrap fancybox">
+              <span class="icon-search2" style="text-align: center"><br>3D<br>Max</span>
+              <img class="img-fluid" src="images/3dmax1_a.jpg">
+            </a>
+          </div>
+            
+          <div class="item 3dmax col-6 col-sm-6 col-md-6 col-lg-4 col-xl-4 mb-4">
+            <a href="images/3dmax2_b.jpg" class="item-wrap fancybox">
+              <span class="icon-search2" style="text-align: center"><br>3D<br>Max</span>
+              <img class="img-fluid" src="images/3dmax2_a.jpg">
+            </a>
+          </div>
+            
+            <!--닌텐도랑 레고 메인시안//우선 상세페이지란에 넣음-->
+         <div class="item shopping_detail col-6 col-sm-6 col-md-6 col-lg-4 col-xl-4 mb-4">
               <a href="images/layout2_b.jpg" class="item-wrap fancybox">
               <span class="icon-search2" style="text-align: center"><br>LOGO<br>메인시안</span>
               <img class="img-fluid" src="images/layout2_a.jpg">
             </a>
           </div>
          
-          <div class="item visual col-6 col-sm-6 col-md-6 col-lg-4 col-xl-4 mb-4">
+          <div class="item shopping_detail col-6 col-sm-6 col-md-6 col-lg-4 col-xl-4 mb-4">
               <a href="images/layout1_b.jpg" class="item-wrap fancybox">
               <span class="icon-search2" style="text-align: center"><br>Nintendo<br>메인시안</span>
               <img class="img-fluid" src="images/layout1_a.jpg">
             </a>
           </div>
-          -->
-
+            
+            
+        </div>
+      </div>
+      
     </section>
 
 <!-------------나머지끝----------------->
